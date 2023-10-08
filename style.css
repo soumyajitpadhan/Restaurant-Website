@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* utility class */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* logo section */
+.logo-section {
+    box-shadow: 0px 1px 15px rgb(222, 219, 219);
+}
+
+.img {
+    margin-left: 150px;
+    padding: 10px;
+}
+
+/* hero section */
+.hero-section {
+    margin-top: 30px;
+    gap: 100px;
+}
+
+.heading-container {
+    position: relative;
+    top: 70px;
+}
+
+.greenbg {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.heading-container h2 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 10px;
+    background-color: rgb(247, 168, 64);
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(248, 185, 102);
+}
+
+/* offer section */
+
+.offer-section {
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.box {
+    gap: 10px;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 20px rgb(238, 237, 237);
+}
+
+.img {
+    margin-left: 0;
+}
+
+/* menu section */
+.menu-section {
+    margin-top: 40px;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+.center {
+    position: relative;
+    left: 46%;
+    margin-bottom: 50px;
+    /* cursor: pointer; */
+    border-radius: 5px;
+}
+
+.menu-section h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.item {
+    display: grid;
+    gap: 25px;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+}
+
+.item1 {
+    grid-area: I1;
+}
+
+.item2 {
+    grid-area: I2;
+}
+
+.item3 {
+    grid-area: I3;
+}
+
+.item4 {
+    grid-area: I4;
+}
+
+.item5 {
+    grid-area: I5;
+}
+
+.item6 {
+    grid-area: I6;
+}
+
+.item7 {
+    grid-area: I7;
+}
+
+.item img {
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.item img:hover {
+    transform: scale(1.08);
+}
+
+/* footer-section */
+.bgcolor {
+    background-color: rgb(246, 222, 192);
+}
+
+.footer-section {
+    margin-top: 50px;
+    gap: 300px;
+    padding: 30px;
+}
+
+.footer-section ul {
+    list-style: none;
+    cursor: pointer;
+}
